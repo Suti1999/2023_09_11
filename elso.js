@@ -8,18 +8,21 @@ function osszead(){
     kijelzo.innerHTML="Összeadva" + (a+b).toString();
 
 }
+
 function kivon(){
     a=parseFloat(a_input.value);
     b=parseFloat(b_input.value);
     kijelzo.innerHTML="Kivonva" + (a-b).toString();
 
 }
+
 function szorzas(){
     a=parseFloat(a_input.value);
     b=parseFloat(b_input.value);
     kijelzo.innerHTML="Összeszorozva" + (a*b).toString();
 
 }
+
 function osztva(){
     a=parseFloat(a_input.value);
     b=parseFloat(b_input.value);
